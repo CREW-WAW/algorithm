@@ -1,4 +1,4 @@
-package main.waw.programmers.소수판별;
+package main.waw.goorm.소수판별;
 
 public class Solution {
 
