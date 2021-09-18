@@ -11,9 +11,11 @@ public class Solution {
   public static int solution(int input) {
     int result = 0;
 
-    for (int i = 0; i <= input; i++)
-      if (i % 3 == 0 || i % 5 == 0)
-        result += i;
+      for (int i = 0; i <= input; i++) {
+          if (i % 3 == 0 || i % 5 == 0) {
+              result += i;
+          }
+      }
 
     return result;
   }

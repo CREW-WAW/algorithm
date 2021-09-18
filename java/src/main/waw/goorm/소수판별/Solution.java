@@ -10,8 +10,8 @@ public class Solution {
 
   public static boolean solution(int input) {
     boolean result = true;
-    for (int i = 2; i < input-1; i++) {
-      if (input % i == 0) 
+    for (int i = 2; i < input - 1; i++) {
+      if (input % i == 0)
         result = false;
     }
 
